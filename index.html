@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechNova – Desarrollo de presencia online</title>
+
+  <style>
+    :root{
+      --azul:#1f2f66;
+      --gris:#f5f5f5;
+    }
+
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#fff;
+      color:#333;
+    }
+
+    /* HEADER */
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 40px;
+      border-bottom:1px solid #eee;
+    }
+
+    .logo{
+      border:2px solid var(--azul);
+      padding:6px 14px;
+      font-weight:bold;
+      color:var(--azul);
+    }
+
+    nav a{
+      margin-left:25px;
+      text-decoration:none;
+      color:#333;
+      font-size:14px;
+    }
+
+    /* HERO */
+    .hero{
+      position:relative;
+      background:url("/img/inicio.jpg") center/cover no-repeat;
+      min-height:520px;
+    }
+
+    .hero-card{
+      position:absolute;
+      right:8%;
+      top:25%;
+      background:#fff;
+      padding:40px;
+      max-width:420px;
+      box-shadow:0 10px 30px rgba(0,0,0,.15);
+    }
+
+    .hero-card h1{
+      color:var(--azul);
+      font-size:34px;
+      margin-bottom:15px;
+    }
+
+    .hero-card p{
+      font-size:14px;
+      line-height:1.6;
+      margin-bottom:25px;
+    }
+
+    .btns{
+      display:flex;
+      gap:10px;
+    }
+
+    .btn{
+      padding:10px 18px;
+      border:none;
+      cursor:pointer;
+      font-size:14px;
+    }
+
+    .btn-primary{
+      background:var(--azul);
+      color:#fff;
+    }
+
+    .btn-secondary{
+      background:#e63939;
+      color:#fff;
+    }
+
+    /* SERVICIOS */
+    .services{
+      background:var(--azul);
+      padding:60px 40px;
+      color:#fff;
+    }
+
+    .services h2{
+      font-size:28px;
+      margin-bottom:10px;
+    }
+
+    .services p{
+      font-size:14px;
+      margin-bottom:40px;
+      max-width:600px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#fff;
+      color:#333;
+      padding:25px;
+      border-left:4px solid var(--azul);
+    }
+
+    .card h3{
+      color:var(--azul);
+      margin-bottom:10px;
+      font-size:18px;
+    }
+
+    .card p{
+      font-size:14px;
+      margin-bottom:15px;
+    }
+
+    .card a{
+      color:#e63939;
+      text-decoration:none;
+      font-size:13px;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:900px){
+      .hero-card{
+        position:relative;
+        right:auto;
+        top:auto;
+        margin:40px auto;
+      }
+    }
+
+    @media(max-width:600px){
+      header{
+        flex-direction:column;
+      }
+
+      nav{
+        margin-top:10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">TechNova</div>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Sobre CTI</a>
+    <a href="#">Sectores</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-card">
+    <h1>Desarrollo de presencia online</h1>
+    <p>
+En TechNova nos especializamos en el desarrollo de páginas web profesionales para negocios y emprendedores que buscan una presencia online clara y eficiente. Somos líderes en soluciones digitales rápidas, con sitios web listos en pocos días y orientados a la generación de clientes
+    </p>
+
+<div class="btns">
+  <a href="httos://wa.me/522211119625" class="btn btn-primary">🌐</a>
+  <a href="https://wa.me/522211119625" class="btn btn-secondary">Contacto</a>
+</div>
+
+</div>    
+
+  </div>
+</section>
+
+<section class="services">
+  <h2>Nuestros servicios</h2>
+  <p>
+    Aquí puedes encontrar una variedad de servicios diseñados para impulsar tu presencia
+    online y facilitar la interacción con tus clientes.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Diseño Web Personalizado</h3>
+      <p>Creamos sitios web a medida, adaptados a las necesidades de tu negocio.</p>
+      <a href="https://wa.me/522211119625">WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <h3>Optimización SEO</h3>
+      <p>Mejoramos la visibilidad de tu sitio en los motores de búsqueda.</p>
+      <a href="https://wa.me/522211119625">WhatsApp</a>
+    </div>
+
+<div class="card">
+      <h3>Web + Dominio + Hosting</h3>
+      <p>Entregamos tu página lista para usar, con dominio, hosting y configuración completa incluida. >
+      <a href="https://wa.me/522211119625">WhatsApp</a>
+    </div>
+
+
+<div class="card">
+      <h3>Rediseño y Mejora Web</h3>
+      <p>Actualizamos tu sitio antiguo para verse profesional, confiable y funcione en móviles.
+      <a href="https://wa.me/522211119625">WhatsApp</a>
+    </div>
+
+<div class="card">
+      <h3>Mantenimiento Web</h3>
+      <p> Soporte continuo, ajustes, seguridad y respaldo para que tu sitio siempre esté activo >
+      <a href="https://wa.me/522211119625">WhatsApp</a>
+    </div>
+
+
+    <div class="card">
+      <h3>Gestión de Contenidos</h3>
+      <p>Creamos y gestionamos contenido relevante para tus clientes.</p>
+      <a href="https://wa.me/522211119625">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECCIÓN ACERCA DE NOSOTROS -->
+<section class="about" style="background:url('img/foto1.jpg') center/cover no-repeat; color:#fff; padding:80px 40px;">
+  <div style="background:rgba(0,0,0,0.6); padding:40px; max-width:700px; margin:0 auto; border-radius:8px;">
+    <h2>Acerca de TechNova</h2>
+    <p>
+      Somos un equipo dedicado a ayudar a emprendedores y negocios locales a tener presencia online profesional.
+      Cada proyecto se realiza con pasión, creatividad y enfoque en la conversión de clientes.
+    </p>
+  </div>
+</section>
+
+<!-- SECCIÓN PORTAFOLIO / TRABAJOS -->
+<section class="portfolio" style="padding:80px 40px; background:#f5f5f5; color:#333;">
+  <h2 style="text-align:center; margin-bottom:40px;">Nuestros proyectos</h2>
+  <div class="cards" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px;">
+    <div class="card">
+      <img src="img/pagina1.jpg" alt="Proyecto 1" style="width:100%; border-radius:5px; margin-bottom:15px;">
+      <h3>Proyecto 1</h3>
+      <p>Diseño web para negocio local, optimizado para móviles y ventas.</p>
+      <a href="#" class="whatsapp-card">WhatsApp</a>
+    </div>
+    <div class="card">
+      <img src="img/pagina3.jpg" alt="Proyecto 2" style="width:100%; border-radius:5px; margin-bottom:15px;">
+      <h3>Proyecto 2</h3>
+      <p>Landing page de producto con SEO optimizado y velocidad rápida.</p>
+      <a href="#" class="whatsapp-card">WhatsApp</a>
+    </div>
+ <div class="card">
+      <img src="img/pagina2.jpg" alt="Proyecto 3" style="width:100%; border-radius:5px; margin-bottom:15px;">
+      <h3>Proyecto 3</h3>
+      <p>Web corporativa completa con dominio, hosting y soporte incluido.</p>
+      <a href="#" class="whatsapp-card">WhatsApp</a>
+    </div>
+
+
+     <div class="card">
+      <img src="img/pagina4.jpg" alt="Proyecto 2" style="width:100%; border-radi>      <h3>Proyecto 2</h3>                                                              <p>Landing page de producto con SEO optimizado y velocidad rápida.</p>
+      <h3>“Planes y Precios Web” <h3>
+      <p>“#”<p>
+      <a href="#" class="whatsapp-card"></a>
+    </div>
+
+<div class="card">
+      <img src="img/imagen4.jpg" alt="Proyecto 1" style="width:100%; border-radi>
+      <h3>Proyecto 1</h3>
+      <p>Diseño web para negocio local, optimizado para móviles y ventas.</p>
+      <a href="https//wa.me/522211119625" class="whatsapp-card">  </a>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- SECCIÓN TESTIMONIOS -->
+<section class="testimonials" style="background:url('img/google2.jpg') center/cover no-repeat; color:#fff; padding:80px 40px;">
+  <div style="background:rgba(0,0,0,0.6); padding:40px; max-width:800px; margin:0 auto; border-radius:8px;">
+    <h2 style="text-align:center; margin-bottom:40px;">Lo que dicen nuestros clientes</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;">
+      <div style="background:rgba(255,255,255,0.1); padding:20px; border-radius:5px;">
+        <p>"TechNova transformó mi idea en una web profesional en tiempo récord. ¡Totalmente recomendable!"</p>
+        <strong>- Ana G. ⭐⭐⭐⭐⭐</strong>
+      </div>
+      <div style="background:rgba(255,255,255,0.1); padding:20px; border-radius:5px;">
+        <p>"Mi negocio ahora tiene presencia online y los clientes me contactan directamente por WhatsApp."</p>
+        <strong>- Carlos M. ⭐⭐⭐⭐⭐</strong>
+      </div>
+      <div style="background:rgba(255,255,255,0.1); padding:20px; border-radius:5px;">
+        <p>"Servicio profesional, rápido y con un diseño que realmente convierte."</p>
+        <strong>- Mariana R. ⭐⭐⭐⭐⭐</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="encuesta">
+  <style>
+    .encuesta {
+      padding: 80px 40px;
+      background: linear-gradient(135deg, #eef2ff, #f5f5f5);
+      display: flex;
+      justify-content: center;
+    }
+
+    .encuesta-box {
+      background: #ffffff;
+      max-width: 500px;
+      width: 100%;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+      font-family: Arial, sans-serif;
+    }
+
+    .encuesta-box h2 {
+      color: #1f2f66;
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+
+    .encuesta-box p {
+      color: #555;
+      margin-bottom: 25px;
+      font-size: 15px;
+    }
+
+    .encuesta-box input,
+    .encuesta-box select,
+    .encuesta-box textarea {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .encuesta-box textarea {
+      min-height: 90px;
+      resize: none;
+    }
+
+    .encuesta-box input:focus,
+    .encuesta-box select:focus,
+    .encuesta-box textarea:focus {
+      border-color: #1f2f66;
+    }
+
+    .encuesta-box button {
+      width: 100%;
+      background: #1f2f66;
+      color: white;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .encuesta-box button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(31,47,102,0.3);
+    }
+  </style>
+
+  <div class="encuesta-box">
+    <h2>¿Te ayudamos con tu idea?</h2>
+    <p>Completa el formulario y te contactamos por WhatsApp sin compromiso.</p>
+
+    <form onsubmit="enviarWhatsApp(event)">
+      <input type="text" placeholder="Tu nombre" required>
+
+      <select required>
+        <option value="">Tipo de negocio</option>
+        <option>Emprendedor</option>
+        <option>Negocio local</option>
+        <option>Empresa</option>
+      </select>
+
+      <select required>
+        <option value="">¿Qué necesitas?</option>
+        <option>Página web</option>
+        <option>Landing page</option>
+        <option>SEO</option>
+        <option>No estoy seguro</option>
+      </select>
+
+      <textarea placeholder="Cuéntanos brevemente tu idea"></textarea>
+
+      <button type="submit">Enviar por WhatsApp</button>
+    </form>
+  </div>
+
+  <script>
+    function enviarWhatsApp(e) {
+      e.preventDefault();
+
+      const form = e.target;
+      const nombre = form[0].value;
+      const negocio = form[1].value;
+      const necesita = form[2].value;
+      const mensaje = form[3].value || "Sin mensaje adicional";
+
+      const texto = `Hola, soy ${nombre}.
+Tipo de negocio: ${negocio}.
+Necesito: ${necesita}.
+Mensaje: ${mensaje}`;
+
+      const telefono = "522211119625";
+      const url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
+      window.open(url, "_blank");
+    }
+  </script>
+</section>
+
+<footer class="footer-tech">
+  <style>
+    .footer-tech {
+      background: #1f2f66;
+      color: #ffffff;
+      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-container {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+
+    .footer-tech h4 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+
+    .footer-tech p,
+    .footer-tech a {
+      font-size: 14px;
+      color: #dcdcdc;
+      text-decoration: none;
+      line-height: 1.6;
+    }
+
+    .footer-tech a:hover {
+      color: #ffffff;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      font-size: 13px;
+      color: #cfcfcf;
+    }
+
+    .footer-badges span {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      margin: 4px 4px 0 0;
+    }
+  </style>
+
+  <div class="footer-container">
+    
+    <div>
+      <h4>TechNova</h4>
+      <p>
+        Desarrollo de páginas web profesionales enfocadas en resultados.
+        Sitios rápidos, modernos y listos para generar clientes.
+      </p>
+    </div>
+
+    <div>
+      <h4>Servicios</h4>
+      <p>Diseño web</p>
+      <p>Landing pages</p>
+      <p>SEO</p>
+      <p>Mantenimiento web</p>
+      <p>automatizacion<p>
+      <p>desarrollo de app<p>
+    
+    </div>
+
+    <div>
+      <h4>Contacto</h4>
+      <p>Atención directa por WhatsApp</p>
+      <p>Respuesta rápida</p>
+      <div class="footer-badges">
+        <span>Soporte activo</span>
+        <span>Respuesta humana</span>
+        <span>Hecho con amor</span>
+      </div>
+    </div>
+
+    <div>
+      <h4>Confianza</h4>
+      <p>✔ Sitios optimizados para móviles</p>
+      <p>✔ Entregas rápidas</p>
+      <p>✔ Pagos claros</p>
+      <p>✔ Atención personalizada</p>
+      <p>technovawebmx@gmail.com<p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 TechNova. Todos los derechos reservados.
+  </div>
+</footer>
+
+
+
+</script>
+
+</div>
+</body>
+</html>
+	
